@@ -143,7 +143,7 @@ export default function Layout({ children, title = "myprofile site" }) {
               height={32}
             />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
+              NFT-Garege
             </span>
           </a>
           <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
@@ -163,7 +163,7 @@ export default function Layout({ children, title = "myprofile site" }) {
               </a>
             </li>
             <li>
-              <a href="#" class="hover:underline">
+              <a href="/contact" class="hover:underline">
                 Contact
               </a>
             </li>

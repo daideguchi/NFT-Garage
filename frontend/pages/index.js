@@ -8,8 +8,7 @@ import { memberNFTAddress, tokenBankAddress } from "../../contracts";
 import MemberNFT from "../contracts/MemberNFT.json";
 import TokenBank from "../contracts/TokenBank.json";
 
-
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   const [account, setAccount] = useState(""); //[現在値、更新値]＝初期値
@@ -310,22 +309,23 @@ export default function Home() {
               {/* <!-- Item 1 --> */}
               <div
                 class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
-                data-carousel-item=""
+                data-carousel-item="1"
               >
                 <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">
                   First Slide
                 </span>
                 <Image
-                  src="/linkedin_banner_image_1.png"
-                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  src="/sample.jpeg"
+                  class="absolute block w-full"
                   alt="..."
                   layout="fill"
+
                 />
               </div>
               {/* <!-- Item 2 --> */}
               <div
                 class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
-                data-carousel-item=""
+                data-carousel-item="2"
               >
                 <Image
                   src=""
@@ -337,7 +337,7 @@ export default function Home() {
               {/* <!-- Item 3 --> */}
               <div
                 class="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10"
-                data-carousel-item=""
+                data-carousel-item="3"
               >
                 <Image
                   src=""
