@@ -3,13 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Dropdown } from "flowbite-react";
 // import { account, chainId } from "../pages/index";
-<script src="../path/to/flowbite/dist/flowbite.js"></script>;
 
 export default function Layout({ children, title = "myprofile site" }) {
   return (
     <div>
       <Head>
-        {/* <script src="../path/to/flowbite/dist/flowbite.js"></script> */}
+        <script src="../path/to/flowbite/dist/flowbite.js"></script>
         <title>{title}</title>
       </Head>
 
