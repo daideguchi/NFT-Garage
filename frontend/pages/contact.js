@@ -14,7 +14,7 @@ export default function Contact() {
               className="rounded-full"
               src="/profile.JPG"
               width={200}
-              height={200}
+              height={210}
               alt="Avatar"
             />
           </div>
@@ -23,8 +23,7 @@ export default function Contact() {
             <p>Dai Deguchi</p>
           </div>
           <div className="mt-4">
-            <p className="font-bold text-lg">Product Social</p>
-            <p>Link</p>
+            <p className="font-bold text-lg">Product Social Link</p>
           </div>
           <div className="mt-6 flex justify-around">
             <div>
