@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { Dropdown } from "flowbite-react";
+// import { Dropdown } from "flowbite";
 // import { account, chainId } from "../pages/index";
 
 export default function Layout({ children, title = "myprofile site" }) {
