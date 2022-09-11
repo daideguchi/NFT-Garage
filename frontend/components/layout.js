@@ -5,7 +5,7 @@ import { Dropdown } from "flowbite-react";
 // import { Dropdown } from "flowbite";
 // import { account, chainId } from "../pages/index";
 
-export default function Layout({ children, title = "myprofile site" }) {
+export default function Layout({ children, title = "NFT-Garage" }) {
   return (
     <div>
       <Head>
