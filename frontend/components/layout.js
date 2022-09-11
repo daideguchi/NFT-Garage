@@ -97,9 +97,13 @@ export default function Layout({ children, title = "NFT-Garage" }) {
               </li>
 
               <li>
-                <Dropdown label="Wallet接続（実装予定）">
-                  <Dropdown.Item>Dashboard</Dropdown.Item>
-                  <Dropdown.Item>Settings</Dropdown.Item>
+                <Dropdown label="Go to App">
+                  <Link href="/dashboard">
+                    <Dropdown.Item>Go Dashboard</Dropdown.Item>
+                  </Link>
+                  <Link href="/">
+                    <Dropdown.Item>Home</Dropdown.Item>
+                  </Link>
                 </Dropdown>
               </li>
               {/* ウォレット接続ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */}
