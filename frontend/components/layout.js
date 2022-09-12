@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { Dropdown } from "flowbite-react";
+import { Button, Dropdown } from "flowbite-react";
 // import { Dropdown } from "flowbite";
 // import { account, chainId } from "../pages/index";
 
@@ -31,14 +31,24 @@ export default function Layout({ children, title = "NFT-Garage" }) {
               </a>
             </Link>
           </div>
-          <button
+          <div className="md:hidden">
+            <Dropdown label="Go to App">
+              <Link href="/dashboard">
+                <Dropdown.Item>Go Dashboard</Dropdown.Item>
+              </Link>
+              <Link href="/">
+                <Dropdown.Item>Home</Dropdown.Item>
+              </Link>
+            </Dropdown>
+          </div>
+          {/* <Button
             data-collapse-toggle="navbar-default"
             type="button"
             class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
-            <span class="sr-only">Open main menu</span>
+            <span class="md-only">準備中</span>
             <svg
               class="w-6 h-6"
               aria-hidden="true"
@@ -52,7 +62,7 @@ export default function Layout({ children, title = "NFT-Garage" }) {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </button>
+          </Button> */}
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 items-center">
               <li>

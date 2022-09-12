@@ -45,7 +45,7 @@ export default function Home() {
             <script src="../path/to/flowbite/dist/flowbite.js"></script>;
           </Head>
         }
-        <h2 className={"text-6xl font-bold my-12 mt-8"}>
+        <h2 className={"xl:text-4xl font-bold my-12 mt-8 md:text-md"}>
           あなただけのNFTガレージ
         </h2>
 
@@ -55,7 +55,7 @@ export default function Home() {
             <Accordion.Title>どんなプロダクトか？</Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                ウォレットに接続することで、自分の保有しているNFTが表示されます。
+                MetaMaskウォレットに接続することで、自分の保有しているNFTが表示されます。
                 自分は今どんなNFTを保有しているかわからない、という課題を解決してくれるアプリケーションです。
               </p>
               {/* <p className="text-gray-500 dark:text-gray-400">
