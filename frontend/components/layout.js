@@ -33,9 +33,9 @@ export default function Layout({ children, title = "NFT-Garage" }) {
           </div>
           <div className="md:hidden">
             <Dropdown label="Go to App">
-              <Link href="/dashboard">
+              {/* <Link href="/dashboard">
                 <Dropdown.Item>Go Dashboard</Dropdown.Item>
-              </Link>
+              </Link> */}
               <Link href="/">
                 <Dropdown.Item>Home</Dropdown.Item>
               </Link>
